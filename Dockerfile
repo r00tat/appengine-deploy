@@ -1,6 +1,6 @@
 FROM maven:3-jdk-8
 
-RUN RUN apt-get update && apt-get -y upgrade && \
+RUN apt-get update && apt-get -y upgrade && \
     apt-get -y install \
     apt-transport-https \
     ca-certificates \
